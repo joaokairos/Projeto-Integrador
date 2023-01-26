@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    display: flex;    
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    background-color: rgba(0,0,0,0.6);
+    height: 80px;
+}
+.logo{
+    color: #ec4141;
+    margin-top: 25px; 
+}
+.menu-container{
+   width: 100%;
+   justify-content: space-between; 
+}
+.menu-container a.active-menu{
+    background-color: #6e41ec;
+}
+.menu-container a{
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 80px;
+    transition: 0.8s;
+}
+.menu-container a:hover{
+    color:#4185ec
+}
+
+section.produtos{
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+.produto-single{
+    text-align: left;
+    width: 100%;
+    margin: 0 10px;
+}
+.produto-container{
+    width: 100%;
+    
+    justify-content: space-between;
+}
+.produto-single img{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+.produto-single h3{
+    text-align: center;
+    background-color: #4441ec;
+    border: 1px solid white;
+    padding: 8px;
+}
+.produto-single p{
+    background-color: white;
+    padding: 8px;
+    color: black;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+
+section.palavras{
+    background-color: white;
+    padding: 20px;
+}
+@media (max-width: 500px){
+    .logo h5{
+        width: 2px;
+    }
+    a{
+        width: 50px;
+        height:80px;
+    }
+    .menu-container a.active-menu{
+        width: 59px;
+        height: 80px;
+    }
+    .produto-single img{
+        height: 120px;
+    }
+}   
