@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     
 }
 .center{
@@ -12,11 +12,11 @@
     padding: 0 2%;
 }
 header{
-    background-color: rgba(0,0,0,0.6);
+    background-color: #5d6a92;
     height: 80px;
 }
 .logo{
-    color: #ec4141;
+    color: #ffdab9;
     margin-top: 25px; 
 }
 .menu-container{
@@ -24,7 +24,7 @@ header{
    justify-content: space-between; 
 }
 .menu-container a.active-menu{
-    background-color: #ee3f14;
+    background-color: #ffdab9;
 }
 .menu-container a{
     color: white;
@@ -40,12 +40,12 @@ header{
 }
 section.main{
     min-height: 1150px;
-    background-image: url(./imagens/membrana3.jpg);
+    background-image: url(./imagens/membrana1.jpg);
     background-size: cover;
     background-position: center;
 }
 section.produtos{
-    background-color: #616659;
+    background-color: #5d6a92;
     padding: 20px 0;
     text-align: center;
     color: white;
@@ -66,7 +66,7 @@ section.produtos{
 }
 .produto-single h3{
     text-align: center;
-    background-color: #ec4141;
+    background-color: #ffdab9;
     border: 1px solid white;
     padding: 8px;
 }
@@ -76,7 +76,7 @@ section.produtos{
     color: black;
 }
 footer{
-    background-color: #333;
+    background-color: #584e4e;
     text-align: center;
     padding: 8px;
     color: white;
@@ -86,7 +86,7 @@ h3{
 }
 @media (max-width: 500px){
     .logo h5{
-        width: 2px;
+        width: 3px;
     }
     a{
         width: 50px;

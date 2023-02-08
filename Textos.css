@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .center{
     display: flex;    
@@ -11,20 +11,18 @@
     padding: 0 2%;
 }
 header{
-    background-color: rgba(0,0,0,0.6);
+    background-color: #5d6a92;
     height: 80px;
 }
 .logo{
-    color: #ec4141;
+    color: #ffdab9;
     margin-top: 25px; 
 }
 .menu-container{
    width: 100%;
    justify-content: space-between; 
 }
-.menu-container a.active-menu{
-    background-color: #6e41ec;
-}
+
 .menu-container a{
     color: white;
     display: inline-block;
@@ -61,7 +59,7 @@ section.produtos{
 }
 .produto-single h3{
     text-align: center;
-    background-color: #4441ec;
+    background-color: #ffdab9;
     border: 1px solid white;
     padding: 8px;
 }
@@ -71,7 +69,7 @@ section.produtos{
     color: black;
 }
 footer{
-    background-color: #333;
+    background-color: #584e4e;
     text-align: center;
     padding: 8px;
     color: white;
@@ -80,6 +78,9 @@ footer{
 section.palavras{
     background-color: white;
     padding: 20px;
+}
+h3{
+    color: #333;
 }
 @media (max-width: 500px){
     .logo h5{

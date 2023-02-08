@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .center{
     display: flex;    
@@ -15,16 +15,14 @@ header{
     height: 80px;
 }
 .logo{
-    color: #ec4141;
+    color: #ffdab9;
     margin-top: 25px; 
 }
 .menu-container{
    width: 100%;
    justify-content: space-between; 
 }
-.menu-container a.active-menu{
-    background-color: #ecc441;
-}
+
 .menu-container a{
     color: rgb(255, 255, 255);
     display: inline-block;
@@ -39,7 +37,7 @@ header{
 }
 
 section.produtos{
-    background-color: white;
+    background-color: #5d6a92;
     padding: 20px 0;
     text-align: center;
     color: white;
@@ -61,7 +59,7 @@ section.produtos{
     display: block;
 }
 footer{
-    background-color: #333;
+    background-color: #584e4e;
     text-align: center;
     padding: 8px;
     color: white;
@@ -72,11 +70,15 @@ section.palavras{
     padding: 20px;
 }   
 h4{
-    padding: 8px;
-    color: rgb(0, 0, 0);
+    padding: 20px;
+    color: rgb(129, 31, 31);
 }
 body{
     background-color: rgb(255, 255, 255);
+}
+p{
+    padding: 20px;
+    
 }
 
 @media (max-width: 500px){
